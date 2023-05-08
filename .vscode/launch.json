@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "runner mail_reader",
+            "type": "python",
+            "request": "launch",
+            "python": "/Users/anthonypernia/Documents/projects/mail_reader/venv/bin/python3",
+            "module": "runner.runner",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}

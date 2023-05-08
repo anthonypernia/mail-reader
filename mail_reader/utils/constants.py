@@ -1,0 +1,15 @@
+""" Constants for mail_reader """
+SETTINGS_FILE = "settings.yaml"
+MAIL_READER_TAG = "mail_reader"
+USER = "user"
+PASSWORD = "password"
+MAIL = "mail"
+HOST = "host"
+PORT = "port"
+SSL = "ssl"
+PATH_ATTACHMENTS = "path_attachments"
+DEFAULT_PORT = 993
+DEFAULT_HOST = "imap.gmail.com"
+DEFAULT_SSL = True
+DEFAULT_PATH_ATTACHMENTS = "attachments"
+DEFAULT_MAIL = "gmail"

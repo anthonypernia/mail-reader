@@ -1,0 +1,10 @@
+PyYAML
+pyyaml
+pre-commit
+mypy
+black
+isort
+pylint
+coverage
+types-PyYAML
+types-requests
