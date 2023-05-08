@@ -35,7 +35,7 @@ class MailReader:
         self.mail = config.get(c.MAIL, c.DEFAULT_MAIL)
         self.host = config.get(c.HOST, c.DEFAULT_HOST)
         self.port = config.get(c.PORT, c.DEFAULT_PORT)
-        self.ssl = config.get(c.SSL, None) ni  
+        self.ssl = config.get(c.SSL, None) 
         self.path_attachments = config.get(
             c.PATH_ATTACHMENTS, c.DEFAULT_PATH_ATTACHMENTS
         )
